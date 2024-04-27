@@ -1,4 +1,8 @@
 (executable
  (public_name ffi_example)
  (name main)
- (libraries ffi_example))
+ (foreign_stubs
+  (language c)
+  (names stubs))
+ (libraries ffi_example)
+ (foreign_archives ../foreign/ex_foreign))
