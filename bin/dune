@@ -1,0 +1,4 @@
+(executable
+ (public_name ffi_example)
+ (name main)
+ (libraries ffi_example))
