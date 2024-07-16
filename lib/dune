@@ -1,2 +1,2 @@
 (library
- (name ffi_example))
+ (name ocaml_ffi_example))

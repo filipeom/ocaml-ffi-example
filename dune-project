@@ -1,6 +1,6 @@
 (lang dune 3.15)
 
-(name ffi_example)
+(name ocaml_ffi_example)
 
 (generate_opam_files true)
 
@@ -16,7 +16,7 @@
 (documentation https://url/to/documentation)
 
 (package
- (name ffi_example)
+ (name ocaml_ffi_example)
  (synopsis "A short synopsis")
  (description "A longer description")
  (depends ocaml dune)
